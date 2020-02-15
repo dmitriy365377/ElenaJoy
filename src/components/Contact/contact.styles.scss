@@ -1,0 +1,48 @@
+.contact {
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+
+    &__wrapper {
+        flex: 3 1 40rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         align-items: center;
+
+        label {
+            font-size: 23px;
+        } 
+
+        h2 {
+          font-size: 50px;
+            span {
+                color: #906272;
+                font-size: 80px;
+            } 
+        } 
+    }
+
+    &__inp {
+        display: block;
+        margin: 2rem 0rem;
+        background: black;
+        color: white;
+        border: none;
+        padding: 15px;
+        font-size: 23px;
+    }  
+
+    &__btn {
+        padding: 1rem 3rem;
+        background: #906272;
+        color: white;
+        border: none;
+        width: 46%;
+        font-size: 20px;
+    }
+    
+    &__photo {
+        flex: 1 1 40rem;
+    }
+}
